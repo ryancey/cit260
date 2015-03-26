@@ -5,7 +5,7 @@
  */
 package indi_assignments;
 
-import L10.indi.assign.enums.yanceyFam;
+
 
 /**
  *
@@ -17,9 +17,9 @@ public class Indi_assignments {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       L10_yanceyFamily members;
-        members = new L10_yanceyFamily();
-       members.familytree();
+       L10_yanceyFamily familyNames;//calling the method in L10_yanceyFamily
+       familyNames = new L10_yanceyFamily();
+       familyNames.familytree();
     }
     
 }

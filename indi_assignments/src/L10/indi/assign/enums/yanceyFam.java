@@ -10,5 +10,22 @@ package L10.indi.assign.enums;
  * @author rachelangilau
  */
 public enum yanceyFam {
-   Zane , Rachel, Daniella;
+ ONE{
+     @Override
+    public String toString(){
+        return "Zane W. Yancey";
+    }
+ },
+ TWO{
+     @Override
+    public String toString(){
+        return "Rachel A. Yancey";
+    }
+ },
+ THREE{
+     @Override
+     public String toString(){
+         return "Daniella D Yancey";
+     }
+ }
 }
